@@ -1,0 +1,34 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: black;
+}
+
+section{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+.fireworks{
+position: fixed;
+}
+.content{
+    z-index: 1;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content h2{
+    -webkit-text-stroke: 1px  #ffc72c;
+    color: transparent;
+    
+    font-size: 8em;
+    line-height: .9em;
+}
+
